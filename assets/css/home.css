@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>*{
+    font-family: sans-serif;
+    margin-top: .5rem !important;
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    margin: auto;
+    width: fit-content;
+}
+
+form>input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+form>button{
+    padding: .2rem .8rem;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form>button:hover{
+    background-color: darkgrey;
+}
+
+.stack{
+    list-style: none;  
+    width: fit-content;  
+    margin: auto;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    background-color: cornflowerblue;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: .6rem;
+}
+
+.contact:hover{
+    background-color: gray;
+}
+
+.contact>:first-child{
+    flex-grow: 1;
+}
+
+.contact a{
+    color: white;
+    margin-left: .5rem;
+}
+
+.contact a:hover{
+    color: lightcoral;
+}
+
+/* Google Icons */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
